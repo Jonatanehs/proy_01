@@ -15,12 +15,11 @@ function multiply(a,b) {
 
 // define la funcion dividir(divide)
 function divide(a,b) {
-    if (b==0 && a==0)  {
-        return "No Aplica"
-    } elseif(b==0);{
+    if (b == 0 && a == 0)  {
+        return "No Aplica";
+    } else if(b==0){
     return "n/a";
-    } 
-    else {
+    }  else {
         return a / b;
     }
 
