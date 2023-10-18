@@ -1,3 +1,4 @@
+//el require, importa todas las funciones que necesita
 const functions = require('./functions.js') 
     
 console.log(functions);

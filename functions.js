@@ -1,3 +1,4 @@
+// las funciones son un conjunto de instrucciones que necesitan una entrada y dan una salida  
 // define la funcion sumar(add)
 function add(a,b) {
     return a + b;
@@ -25,6 +26,7 @@ function divide(a,b) {
 
 }
 
+// los exports, exportan las funciones matematicas 
 exports.add = add;
 exports.substract = substract;
 exports.multiply = multiply;
